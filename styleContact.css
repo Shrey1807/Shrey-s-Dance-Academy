@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap');
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myInput{
+    width: 275px;
+    padding: 15px;
+    margin: 1px;
+    font-size: 15px;
+    border-color: rosybrown;
+    border-style: inset;
+    outline: auto;
+}
+
+.container{
+    min-height: 72vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+font-family: 'ZCOOL Qingke HuangYou';
+font-size: 34px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn{
+    font-size: 20px;
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    margin: 6px
+}

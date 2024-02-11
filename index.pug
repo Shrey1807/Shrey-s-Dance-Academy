@@ -1,0 +1,58 @@
+DOCTYPE 
+html    
+ 
+    title Shrey's Dance Academy 
+    head 
+        style  
+          include ../static/style.css 
+    body 
+        nav#navbar 
+            ul  
+                div#logo 
+                    img(src="/static/logo.jpg.webp")
+                    //| HDA  
+                    li #[a(href = "/") Home] 
+                    li #[a(href = "/") About Us] 
+                    li #[a(href = "/") Contact Us] 
+                    li #[a(href = "/") Services] 
+
+            section#introSection 
+                 div.small Welcome to Shrey's Dance Academy 
+                    div.con Eat Sleep Repeat Dance              
+
+            section#missionSection 
+                h2 Our Mission 
+                
+                div.card 
+                 div.card-img 
+                    img(src="/static/logo-2.webp", alt="")   
+                 .card-content 
+                     p   Aesthetic Of Group Dance
+
+                div.card 
+                 div.card-img 
+                    img(src="/static/1.webp", alt="")   
+                 .card-content 
+                    p   Relieve with smooth stretches
+
+                div.card 
+                 div.card-img 
+                    img(src="/static/2.webp", alt="")   
+                 .card-content 
+                    p  Attraction Of Beauty with grooves 
+                 
+            
+            section#sponsorSection 
+                h2 Our Sponsors  
+                #sponsors 
+                    img(src="/static/Rogers-Logo.jpg.png", alt="Sponsor Image", class="spImage")
+                    img(src="/static/Fit-logo.jpg.png", alt="Sponsor Image", class="spImage")
+                    img(src="/static/client-logo-1.jpg", alt="Sponsor Image", class="spImage")
+            
+            footer#footer 
+                | Copyright &copy; 2024 Shrey'sDanceAcademy.com | All rights reserved
+
+            script 
+               include ../static/index.js 
+
+            

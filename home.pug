@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts 
+    script (src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+
+block content 
+    
+
+            section#introSection 
+                 div.small Welcome to Shrey's Dance Academy 
+                    div.con Eat Sleep Repeat Dance              
+
+            section#missionSection 
+                h2 Our Mission 
+                
+                div.card 
+                 div.card-img 
+                    img(src="/static/logo-2.webp", alt="")   
+                 .card-content 
+                     p   Aesthetic Of Group Dance
+
+                div.card 
+                 div.card-img 
+                    img(src="/static/1.webp", alt="")   
+                 .card-content 
+                    p   Relieve with smooth stretches
+
+                div.card 
+                 div.card-img 
+                    img(src="/static/2.webp", alt="")   
+                 .card-content 
+                    p  Attraction Of Beauty with grooves 
+                 
+            
+            section#sponsorSection 
+                h2 Our Sponsors  
+                #sponsors 
+                    img(src="/static/Rogers-Logo.jpg.png", alt="Sponsor Image", class="spImage")
+                    img(src="/static/Fit-logo.jpg.png", alt="Sponsor Image", class="spImage")
+                    img(src="/static/client-logo-1.jpg", alt="Sponsor Image", class="spImage")
